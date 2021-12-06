@@ -51,6 +51,18 @@ header {
   margin-right: auto;
   margin-left: auto;
   padding: 0; }
+.on_menu.fixed_menu {
+  position: absolute;
+  top: 0px;
+  background: rgba(243, 239, 232, 0.6);
+  backdrop-filter: blur(54px);
+  display: none; }
+
+.logo_c.black {
+  margin-left: 100px; }
+
+.menu_phone.black {
+  margin-right: 100px; }
 
 .menu_phone {
   display: inline-block; }
@@ -65,6 +77,13 @@ header {
     text-decoration: none;
     border-bottom: 1px solid #FFFFFF;
     color: #FFFFFF;
+    transition: 0.5s; }
+.menu_link2.black {
+  color: #1B1F2B; }
+  .menu_link2.black:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #1B1F2B;
+    color: #1B1F2B;
     transition: 0.5s; }
 
 .promo {
@@ -1053,7 +1072,12 @@ span.two, .item_tent {
 
   .photographies2 {
     width: 349.16px;
-    height: 301px; } }
+    height: 301px; }
+.logo_c.black {
+    margin-left: 57px; }
+
+  .menu_phone.black {
+    margin-right: 57px; } }
 @media (max-width: 1024px) {
   .container {
     max-width: 918px;
@@ -1062,6 +1086,11 @@ span.two, .item_tent {
   .container.promocont {
     max-width: 910px;
     margin-left: 57px; }
+  .logo_c.black {
+    margin-left: 57px; }
+
+  .menu_phone.black {
+    margin-right: 57px; }
 
   .col-lg-8.promo_text {
     margin-left: auto;
