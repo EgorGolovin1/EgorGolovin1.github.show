@@ -1074,10 +1074,10 @@ span.two, .item_tent {
     width: 349.16px;
     height: 301px; }
 .logo_c.black {
-    margin-left: 57px; }
+    margin-left: 376px; }
 
   .menu_phone.black {
-    margin-right: 57px; } }
+    margin-right: 376px; } }
 @media (max-width: 1024px) {
   .container {
     max-width: 918px;
@@ -1286,7 +1286,13 @@ span.two, .item_tent {
   .container.promocont {
     max-width: 320px;
     margin-left: 20px; }
-
+  .menu_phone.black{
+    margin-left: 63px;
+    margin-right: 0px; }
+  .logo_c.black{
+    margin-right: 0px;
+    margin-left: 0px;}
+    
   .row.trevell {
     max-width: 320px; }
 
