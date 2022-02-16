@@ -323,15 +323,15 @@ h3.undfuter_text {
   .right_arrow::before {
     content: "";
     width: 22px;
-    height: 3px;
+    height: 2px;
     background: #FFFFFF;
     position: absolute;
-    bottom: 5px;
+    bottom: 6px;
     transform: translateY(-30%); }
   .right_arrow::after {
     content: "";
-    border-top: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
     width: 11px;
     height: 11px;
     transform: rotate(45deg);
@@ -1557,7 +1557,13 @@ span.two, .ul.foritems {
     margin-left: 15px;
     margin-left: 14px;
     left: 2px;
-    bottom: -2px; }
+    bottom: -1px; }
+    .right_arrow::before {
+        height: 2px; }
+      .right_arrow::after {
+        border-top: 2px solid #FFFFFF;
+        border-right: 2px solid #FFFFFF;
+        bottom: 1px; }
 
   .text_idia {
     display: none; }
