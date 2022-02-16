@@ -1349,6 +1349,10 @@ span.two, .ul.foritems {
     background: rgba(0, 0, 0, 0); }
   .tent:hover .more_button2_fire {
     background: rgba(0, 0, 0, 0); }
+  .tent:active .more_button2 {
+    background: rgba(0, 0, 0, 0); }
+  .tent:active .more_button2_fire {
+    background: rgba(0, 0, 0, 0); }
 
   .site:hover {
     color: #FFFFFF;
