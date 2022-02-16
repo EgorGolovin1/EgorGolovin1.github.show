@@ -1559,7 +1559,8 @@ span.two, .ul.foritems {
     left: 2px;
     bottom: -1px; }
     .right_arrow::before {
-        height: 2px; }
+        height: 2px;
+        bottom: 5px;}
       .right_arrow::after {
         border-top: 2px solid #FFFFFF;
         border-right: 2px solid #FFFFFF;
