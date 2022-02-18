@@ -1,0 +1,964 @@
+nav
+	width: 100%
+	height: 50px
+
+header
+	position: absolute
+	width: 100%
+	min-width: 360px
+body
+	min-width: 360px
+.container
+	max-width: 1170px
+	padding: 0
+	margin: 0
+	margin-left: 100px
+.container.promocont
+	position: relative
+.col-lg-8.promo_text
+		margin-left: auto
+		margin-right: auto
+		width: 768px
+.col-lg-6
+		margin-left: auto
+		margin-right: auto
+		height: 105px
+.row
+	padding: 0px
+	margin: 0px
+.logo_c
+	display: inline-block
+	padding: 0px
+	width: 182px
+	height: 30.24px
+
+.on_menu
+	display: flex
+	justify-content: center
+	width: 100%
+	padding-top: 30px
+.on_menu.fixed_menu
+	position: absolute
+	top: 0px
+	display: none
+.bg_fixed_menu
+	position: absolute
+	background: rgba(243, 239, 232, 0.6)
+	backdrop-filter: blur(54px)
+	width: 100%
+	height: 88px
+	top: 0
+	display: none
+	
+
+.menu
+	width: 468px
+	display: inline-flex
+	justify-content: space-between
+	list-style-type: none
+	margin-right: auto
+	margin-left: auto
+	padding: 0
+
+.menu_phone
+	display: inline-block
+
+.menu_link2
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	color: $second-color
+	text-decoration: none
+	&:hover
+		text-decoration: none
+		border-bottom: 1px solid $second-color
+		color: $second-color
+		transition: 0.5s
+.menu_link2.black
+	color: #1B1F2B
+	&:hover
+		text-decoration: none
+		border-bottom: 1px solid #1B1F2B
+		color: #1B1F2B
+		transition: 0.5s
+.promo
+	min-height: 831px
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/promo.back.jpeg) center center/cover no-repeat
+
+h1
+	font-style: normal
+	font-weight: bold
+	font-size: 96px
+	line-height: 105px
+	text-align: center
+	letter-spacing: 0.02em
+	color: $second-color
+	margin-top: 207px
+	margin-bottom: 0
+	padding: 0
+h2
+	font-style: normal
+	font-weight: bold
+	font-size: 59px
+	line-height: 73px
+	text-align: center
+	color: #1B1F2B
+	padding-top: 135px
+	margin-bottom: 0
+h3
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	line-height: 28px
+	text-align: center
+	color: $second-color
+	margin-top: 50px
+	padding: 0
+
+h4 
+	font-style: normal
+	font-weight: normal
+	font-size: 16px
+	text-align: center
+	color: #A6A6A6
+	margin-top: 30px 
+	margin-bottom: 0
+	margin-right: 4px
+
+
+h5
+	margin-top: 51px
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	line-height: 28px
+	text-align: center
+	color: $second-color
+h3.undfuter_text
+	margin-top: 235px
+	margin-left: 30px
+
+
+.find_tour
+	display: block
+	cursor: pointer
+	width: 118px
+	height: 34px
+	background: $second-color
+	border-radius: 10px
+	margin-right: auto
+	margin-left: auto
+	margin-top: 51px
+	padding: 5px 20px
+	border: none
+	font-style: normal
+	font-weight: normal
+	font-size: 17px
+	letter-spacing: -0.01em
+	color: #1B1F2B
+	transition: 0.2s 
+	&:hover
+		background-color: $gold-color
+		color: $second-color
+	&:active
+		background-color: #F8E6BE
+		color: #1B1F2B
+
+.after_promo
+	background-color: $main-color
+	min-height: 500px
+
+.menu_choose
+	display: flex
+	justify-content: space-between
+	list-style-type: none
+	margin-right: auto
+	margin-left: auto
+	padding: 0
+	width: 700px
+	margin-top: 34px
+	margin-bottom: 1px
+.for_phone_version
+	display: none
+.choose_link
+	font-style: normal
+	font-weight: bold
+	font-size: 23px
+	color: #1B1F2B
+	text-decoration: none
+	padding-bottom: 5px
+	&:hover
+		border-bottom: 2px solid #1B1F2B 
+		color: #1B1F2B
+		
+	&:active
+		border-bottom: 2px solid #EFA501
+		color: #EFA501
+		
+.choose_link.popular
+	color: #EFA501
+	border-bottom: 2px solid #EFA501
+.choose_img
+	display: inline-block
+	overflow: hidden
+	padding: 0px
+	width: 370px
+	height: 531px
+	border-radius: 50px
+	position: relative
+.choose_img.with_mt
+	margin-top: 30px
+.picture
+	width: 370px
+	height: 531px
+#img_2,#img_3,#img_5
+	transform: scaleX(1.2)
+#img_7
+	display: none
+	transform: scaleY(1)
+.choose_img
+	&:hover
+		.picture
+			transform: scale(1.2)
+			transition: 0.3s all
+		#img_2,#img_3,#img_5
+			transform: scale(1.4,1.2) 
+			transition: 0.3s all
+		.more_button
+			background: $btn-color
+			transition: 0.3s all
+			&:active
+				background: $gold-color
+				transition: 0.3s all
+	.picture,.more_button
+		transition: transform .3s
+	#img_2,#img_3,#img_5
+		transition: transform .3s
+#mobile
+	display: none
+.gradient
+	background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%)
+	position: absolute
+	height: 531px
+	width: 370px
+	top: 0px
+.row.trevell
+	justify-content: space-between
+	margin-top: 100px
+	width: 1170px
+.text_img
+	display: inline-block
+	width: 270px
+	height: 86px
+	font-style: normal
+	font-weight: 500
+	font-size: 35px
+	line-height: 43px
+	color: $second-color
+	padding: 50px 0 0 50px
+	position: absolute
+	top: 1px
+	left: 0px
+	letter-spacing: 0.01em
+
+.rub
+	font-style: normal
+	font-weight: normal
+	font-size: 17px
+	letter-spacing: -0.01em
+	color: $second-color
+	padding-left: 50px
+	position: absolute
+	top:  153px
+.more_button,.more_button2
+	position: absolute
+	cursor: pointer
+	width: 199px
+	height: 42px
+	border-radius: 50px
+	background: rgba(0, 0, 0,0 )
+	border: none
+	font-style: normal
+	font-weight: bold
+	font-size: 23px
+	line-height: 28px
+	color: $second-color
+	padding-right: 24px
+	left: 30px
+	top: 448px
+	display: flex
+	align-items: center
+	justify-content: center
+	&:active
+		background: $gold-color
+	
+
+	
+.right_arrow
+	position: relative
+	display: inline-flex
+	cursor: pointer
+	margin-left: 18px
+	bottom: -7px
+	&::before
+		content: ''
+		width: 22px
+		height: 2px
+		background: $second-color
+		position: absolute
+		bottom: 6px
+		transform: translateY(-30%)
+	&::after
+		content: ''
+		border-top: 2px solid $second-color
+		border-right: 2px solid $second-color
+		width: 11px
+		height: 11px
+		transform: rotate(45deg)
+		position: absolute
+		bottom: 2px
+		left: 11px                                   
+			
+.text_idia
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	line-height: 28px
+	text-align: center
+	color: #A6A6A6
+	margin-right: auto
+	margin-left: auto
+	margin-right: 3px
+.text_idia.isa
+	margin-top: 31px
+.phone_text
+	display: none
+.form
+	background-color: $main-color
+	min-height: 500px
+
+.take_info
+	background-color: $second-color
+	height: 986px
+	margin-top: 100px
+	align-items: center
+	padding: 70px 70px 70px 70px
+	border-radius: 50px
+.form-check-label
+	padding-left: 9px
+.row.license
+	margin-top: 33px
+input
+	width: 500px
+	height: 68px
+	padding: 0
+	margin: 0
+	background-color: #F9F7F4
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	color: #1B1F2B
+	border: none
+	padding: 20px
+	margin-bottom: 30px
+	border-radius: 10px
+	cursor: pointer
+	transition: 0.2s
+	border: 1px solid #F4F0E9
+	&:focus
+		font-size: 20px
+		color: #1B1F2B
+		outline-color: #F4F0E9
+		.country
+			display: inline-block
+	&:hover
+		background-color: #F4F0E9
+	&::placeholder
+		color: #A6A6A6
+
+
+.date_start,.email,.username
+	margin-right: 25px
+
+.col-xl-12.arrow_area
+	height: 134px
+.col-xl-12.name_col
+	height: 28px
+	margin-bottom: 8px
+.text_form_phone
+	display: none
+.name_inp
+	display: inline-block
+	width: 80px
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	color: #1B1F2B
+	margin-top: 2px
+	margin-bottom: 6px
+	&2
+		display: inline-block
+		margin-left: 445px
+		font-style: normal
+		font-weight: normal
+		font-size: 20px
+		color: #1B1F2B
+		margin-bottom: 8px
+
+textarea
+	border: none
+	background-color: $main-color
+	width: 1030px
+	height: 152px
+	border-radius: 10px
+	padding: 20px
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	&:focus
+		outline-color: #F4F0E9
+	
+
+.form-check
+	display: inline-block
+	width: fit-content
+	height: fit-content
+	margin-top: 8px
+	padding-left: 0px
+	padding-right: 0px
+	height: 25px
+	position: relative
+	&-label
+		padding-left: 11px
+		font-style: normal
+		font-weight: normal
+		font-size: 20px
+		color: #1B1F2B
+.row.for_btn
+	margin-top: 36px
+.row.license
+	margin-top: 31px
+.form-check.license
+	margin-top: 0px
+
+.form-check-input:checked[type=radio]
+	background-image: none
+	-webkit-appearance: none
+	-moz-appearance: none
+	appearance: none
+.form-check-input:focus[type=radio]
+	box-shadow: none
+	border: 2px solid rgba(27, 31, 43, 1)
+.form-check-input:checked[type=checkbox]
+	background-image: none
+	-webkit-appearance: none
+	-moz-appearance: none
+	appearance: none
+	box-shadow: none
+.form-check-input:focus[type=checkbox]
+	margin-left: 0px
+	border: 2px solid rgba(27, 31, 43, 1)
+	width: 26px
+	height: 26px
+	padding: 5px
+	box-shadow: none
+#flexRadioDefault1,#flexRadioDefault2
+	&:focus
+		background: rgba(0, 0, 0, 0)
+.form-check .form-check-input
+	margin-left: 0
+.form-check-input
+	margin-left: 0px
+	border: 2px solid rgba(27, 31, 43, 1)
+	margin-top: 0px
+	width: 26px
+	height: 26px
+	padding: 5px
+	&:checked
+		border: 2px solid rgba(27, 31, 43, 1)
+		box-shadow: none
+		background: $second-color
+	&:active
+		box-shadow: none
+	&:hover
+		background: $second-color
+.form-check-input.yes
+	transition: 0s
+	&:checked
+		&::before
+			content: ''
+			width: 12px
+			height: 12px
+			border-radius: 50%
+			background: rgba(27, 31, 43, 1)
+			position: absolute
+.form-check-input.no
+	margin-left: 31px
+	transition: 0s
+	&:checked
+		&::before
+			content: ''
+			width: 12px
+			height: 12px
+			border-radius: 50%
+			background: rgba(27, 31, 43, 1)
+			position: absolute
+			
+			
+.form-check-input.agree
+	margin-top: 3px
+	transition: 0s
+	&:checked
+		&::before
+			content: ''
+			border-top: 2px solid rgba(27, 31, 43, 1)
+			border-right: 2px solid rgba(27, 31, 43, 1)
+			width: 12.24px
+			height: 7.12px
+			position: absolute
+			transform: rotate(135deg)
+.form-check
+	&:checked
+		outline: none
+		outline-offset: none
+.col-xl-12
+	padding: 0px
+.age
+	margin-top: 24px
+	padding: 0px
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	color: #1B1F2B
+.end_agree
+	font-style: normal
+	font-weight: normal
+	font-size: 17px
+	letter-spacing: -0.01em
+	color: #A6A6A6
+	padding-left: 7px
+
+.link_contract
+	font-style: normal
+	font-weight: normal
+	font-size: 17px
+	color: #1B1F2B
+	text-decoration: none
+	line-height: 24px
+	letter-spacing: -0.01em
+	&:hover
+		border-bottom: 1px solid #1B1F2B
+		color: #1B1F2B
+	&:active
+		border-bottom: 1px solid $btn-color
+		color: $btn-color
+
+.end_find
+	width: 235px
+	height: 58px
+	border-radius: 10px
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	color: #FFFFFF
+	background: $btn-color
+	border: none
+	&:hover
+		color: #E0F0E5
+		background: #3B7E7B
+		transition: 0.5s
+	&:active
+		background: #627F7E
+		
+.end_repeat
+	border: none
+	width: 235px
+	height: 58px
+	margin-left: 30px
+	border-radius: 10px
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	color: #286562
+	background: #E0F0E5
+	padding: 15px 30px
+	&:hover
+		color: #286562
+		background: #F1F3F2
+		transition: 0.3s
+	&:active
+		background: #D9DFDB
+select
+	width: 500px
+	height: 68px
+	background-color: #F9F7F4
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	border: none
+	border-radius: 10px
+	cursor: pointer
+	-webkit-appearance: none
+	-moz-appearance: none
+	appearance: none
+	padding: 20px
+	transition: 0.2s
+	&:focus
+		outline-color: #F4F0E9
+		
+	&:hover
+		background-color: #F4F0E9
+select
+	color: #1B1F2B
+select
+	&:invalid
+		color: #A6A6A6
+.opti
+	color: #1B1F2B
+input[type="date"]
+	text-transform: uppercase
+	color: #1B1F2B
+	&:invalid
+		color: #A6A6A6
+input[type=date]::-webkit-calendar-picker-indicator 
+	opacity: 0
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button
+	-webkit-appearance: none
+	margin: 0
+
+
+.reviews
+	background-color: $main-color
+	min-height: 500px
+.row.rev
+	width: 1170px
+.name_review,.name_review_2
+	display: block
+	width: 570px
+	height: 673px
+	background: #F4F0E9
+	border-radius: 50px
+	padding: 40px 40px 40px 40px
+	margin-top: 100px
+	position: relative
+	&_2
+		margin-left: 30px
+	.big_text
+		font-style: normal
+		font-weight: bold
+		font-size: 23px
+		line-height: 28px
+		color: #1B1F2B
+		display: block
+.name_text.maria
+	margin-top: 270px
+.name_text.pavel
+	margin-top: 74px
+	
+.name_text
+	display: inline-block
+	font-style: normal
+	font-weight: 500
+	font-size: 35px
+	color: #1B1F2B
+	line-height: 1
+
+.under_name_text
+	font-style: normal
+	font-weight: normal
+	font-size: 17px
+	letter-spacing: -0.01em
+	color: #A6A6A6
+	line-height: 1
+.portrait
+	position: absolute
+	display: block
+	width: 75px
+	height: 75px
+	left: 455px
+	top: 557px
+	background: url(../icons/pavel.png) center center/cover no-repeat
+	border-radius: 100px
+	background-position: 100% 10%
+
+.portrait1
+	position: absolute
+	display: block
+	width: 75px
+	height: 75px
+	left: 455px
+	top: 558px
+	background: url(../icons/Maria.png) center center/cover no-repeat
+	border-radius: 100px
+	background-position: 57% 10%
+.photo_trevell
+	background: $main-color
+.photo
+	display: flex
+	justify-content: space-between
+	margin-top: 101px
+	padding: 0px 30px 0px 30px
+.photo.other,.photo.last
+	margin-top: 30px
+.photographies
+	display: flex
+	background: url(../img/photo1.png) center center/cover no-repeat
+	width: 300px
+	height: 300px
+	border-radius: 50px
+.photographies2
+	display: flex
+	background: url(../img/photo1.png) center center/cover no-repeat
+	width: 250px
+	height: 250px
+	border-radius: 50px
+.photographies.photo2
+	background: url(../img/photo2.png) center center/cover no-repeat
+.photographies.photo3
+	background: url(../img/photo3.png) center center/cover no-repeat
+.photographies.photo4
+	background: url(../img/photo4.png) center center/cover no-repeat
+.photographies2.photo5
+	background: url(../img/photo5.png) center center/cover no-repeat
+.photographies2.photo6
+	background: url(../img/photo6.png) center center/cover no-repeat
+.photographies2.photo7
+	background: url(../img/photo7.png) center center/cover no-repeat
+.photographies2.photo8
+	background: url(../img/photo8.png) center center/cover no-repeat
+.photographies2.photo9
+	background: url(../img/photo9.png) center center/cover no-repeat
+.photographies.photo10
+	background: url(../img/photo10.png) center center/cover no-repeat
+.photographies.photo11
+	background: url(../img/photo11.png) center center/cover no-repeat
+.photographies.photo12
+	background: url(../img/photo12.png) center center/cover no-repeat
+.photographies.photo13
+	background: url(../img/photo13.png) center center/cover no-repeat
+.stories_trevell
+	background: $main-color
+	padding-bottom: 135px
+.tent
+	position: relative
+	margin-right: auto
+	margin-left: auto
+	margin-top: 100px
+	border-radius: 50px
+	width: 1170px
+	height: 567px
+	overflow: hidden
+	display: inline-block
+.tent
+	&:hover
+		.big_picture
+			transform: scale(1.2,1.536)
+			transition: 0.3s all
+		.more_button2
+			background: $btn-color
+			transition: 0.3s all
+			&:active
+				background: $gold-color
+				transition: 0.3s
+		.more_button2_fire
+			background: $btn-color
+			transition: 0.3s all
+			&:active
+				background: $gold-color
+				transition: 0.3s
+	.big_picture,.more_button2,.more_button2_fire
+		transition: transform .3s
+.big_picture
+	width: 1170px
+	height: 567px
+	transform: scaleY(1.28)
+.gradiend_for_big
+	background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%)
+	position: absolute
+	height: 567px
+	width: 1170px
+	top: 0px
+.more_button2
+	top: 473px
+	left: 40px
+	.right_arrow
+		bottom: -8px
+		margin-left: 14px
+
+.tent_text
+	position: absolute
+	display: inline-block
+	width: 554px
+	font-style: normal
+	font-weight: 500
+	font-size: 35px
+	line-height: 43px
+	color: $second-color
+	padding-top: 60px
+	letter-spacing: 0.005em
+	left: 60px
+	top: 0px
+span.two,.ul.foritems
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	line-height: 142%
+	color: $second-color
+	position: absolute
+	width: 554px
+	left: 60px
+	top: 140px
+.ul.foritems
+	top: 280px
+.item_tent
+	padding-left: 28px
+	position: relative
+	&::before
+		content: ''
+		width: 5px
+		height: 5px
+		border: 1px solid #ffff
+		background: #ffff
+		position: absolute
+		border-radius: 50%
+		top: 10px
+		left: 10px
+.tent.for_fire,.tent.for_beach
+		margin-top: 43px
+.sites,.sites_fire,.sites_beach
+	position: absolute
+	width: 322px
+	display: inline-flex
+	justify-content: space-between
+	list-style-type: none
+	padding: 0
+	top: 478px
+	left: 787px
+.sites_fire
+	width: 224px
+	left: 886px
+.sites_beach
+	width: 342px
+	left: 767px
+.site
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	color: $second-color
+	text-decoration: none
+	&:hover
+		color: $second-color
+		border-bottom: 1px solid $second-color
+	&:active
+		color: $gold-color
+		border-bottom: 1px solid $gold-color
+.mini_promo
+	width: 370px
+	height: 370px
+	border-radius: 50px
+	display: flex
+	margin-top: 127px
+	margin-left: 5px
+
+.under_footer
+	display: flex
+	justify-content: center
+	padding-right: 10px
+.text_mini_promo
+	display: flex
+
+.text_mailend
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	color: #A6A6A6
+.mail_link
+	font-size: 20px
+	text-decoration: none
+	color: #1B1F2B
+	&:hover
+		border-bottom: 1px solid #1B1F2B
+		color: #1B1F2B
+	&:active
+		border-bottom: 1px solid $btn-color
+		color: $btn-color
+.h3.undfuter_text
+	margin-top: 232px
+	margin-left: 30px
+	font-weight: 500
+	font-size: 35px
+	line-height: 42px
+	letter-spacing: 0.005em
+.mail
+	text-decoration: none
+	color: #1B1F2B
+	&:hover
+		border-bottom: 0.5px solid #1B1F2B
+		color: #1B1F2B
+.footer
+	background: #F4F0E9
+	height: 88px
+.footer_content
+	padding-top: 30px
+	display: flex
+.sites_ofend
+	display: flex
+	justify-content: space-between
+	width: 444px
+	margin-left: 500px
+	list-style-type: none
+.our_social
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	color: #A6A6A6
+	width: 230px
+.item_soc.face
+	padding-left: 7px
+.soc
+	font-style: normal
+	font-weight: normal
+	font-size: 20px
+	color: #1B1F2B
+	text-decoration: none
+	&:hover
+		border-bottom: 1px solid #1B1F2B
+		color: #1B1F2B
+	&:active
+		border-bottom: 1px solid $gold-color
+		color: $gold-color
+.und_text
+	display: none
+.write_email.big
+	display: block
+	font-size: 20px
+	line-height: 28px
+	width: 364px
+	text-align: start
+	margin-top: 22px
+	letter-spacing: 0em
+.write_email
+	display: none
+.soc_logo
+	padding: 0px 12px 5px 0px
+.soc_logo.mob
+	display: none
+.col-xl-12.arrow_area
+	position: relative
+.down_arrow
+	position: absolute
+	display: inline-flex
+	cursor: pointer
+	&::after
+		content: ''
+		border-top: 2px solid #1B1F2B
+		border-right: 2px solid #1B1F2B
+		width: 13.31px
+		height: 13.31px
+		transform: rotate(135deg)
+		position: absolute
+		top: 25px
+		right: 24.5px
+	
