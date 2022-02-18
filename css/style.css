@@ -1119,7 +1119,7 @@ span.two, .ul.foritems {
     margin-top: 0; }
     .choose_img:hover .picture {
       transform: scale(1.2, 1.476); }
-    .choose_img:hover #img_2, .choose_img:hover #img_3, .choose_img:hover #img_5, .choose_img:hover #img_6 {
+    .choose_img:hover #img_2, .choose_img:hover #img_3, .choose_img:hover #img_5, .choose_img:hover #img_7 {
       transform: scale(1.2, 1.2); }
     .choose_img:hover .more_button {
       background: #286562; }
