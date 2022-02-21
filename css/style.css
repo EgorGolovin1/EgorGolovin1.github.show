@@ -1993,6 +1993,35 @@ span.two, .ul.foritems {
       background: #EFA501;
       position: absolute;
       top: 643px; } }
+@media (min-width: 1281px) and (max-width: 1500px) {
+  .photographies.photo2, .photographies2.photo7, .photographies.photo13 {
+    display: none; } }
+@media (min-width: 1025px) and (max-width: 1500px) {
+  .photo, .photo.other {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%; }
+
+  .photographies {
+    width: 350px; }
+
+  .photographies2 {
+    width: 250px; } }
+@media (min-width: 1230px) and (max-width: 1280px) {
+  .photo, .photo.other {
+    width: 95%; }
+
+  .photographies {
+    width: 370px; } }
+@media (min-width: 1025px) and (max-width: 1229px) {
+  .photo, .photo.other {
+    width: 100%; }
+
+  .photographies {
+    width: 320px; }
+
+  .photographies2 {
+    width: 220px; } }
 @media (min-width: 0px) and (max-width: 870px) {
   .photographies2 {
     width: 150px;
