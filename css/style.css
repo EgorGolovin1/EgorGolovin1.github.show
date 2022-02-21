@@ -1074,8 +1074,6 @@ span.two, .ul.foritems {
     margin-left: auto;
     margin-right: auto; }
 
-  .photographies.photo2, .photographies2.photo7, .photographies.photo13 {
-    display: none; } }
 @media (min-width: 990px) and (max-width: 1280px) {
   .container {
     max-width: 918px;
