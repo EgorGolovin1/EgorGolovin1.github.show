@@ -345,7 +345,9 @@ h5 {
     @media (min-width: 0px) and (max-width: 989px) {
       .after_promo__gradient {
         background: linear-gradient(360deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.06) 68.44%, rgba(0, 0, 0, 0.5) 100%);
-        padding: 18px 0 0 25px; } }
+        padding: 18px 0 0 25px;
+        width: 318px;
+        height: 318px; } }
   .after_promo__picture {
     transition: transform 0.3s;
     width: 370px;
@@ -359,7 +361,7 @@ h5 {
       .after_promo__picture {
         width: 318px;
         height: 318px;
-        border-radius: 20px } }
+        border-radius: 20px; } }
   .after_promo__more_button {
     position: absolute;
     cursor: pointer;
