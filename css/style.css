@@ -479,6 +479,9 @@ h5 {
       @media (min-width: 0px) and (max-width: 1025px) {
         .after_promo__choose_img:not([disabled]):hover .after_promo__picture {
           transform: scale(1, 1.23); } }
+      @media (min-width: 0px) and (max-width: 989px) {
+        .after_promo__choose_img:not([disabled]):hover .after_promo__picture {
+          transform: scale(1, 1); } }
     .after_promo__choose_img:not([disabled]):hover .after_promo__more_button {
       background: #286562;
       transition: 0.3s all; }
