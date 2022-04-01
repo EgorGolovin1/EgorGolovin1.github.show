@@ -478,7 +478,8 @@ h5 {
           transform: scale(1.2, 1.476); } }
       @media (min-width: 0px) and (max-width: 1025px) {
         .after_promo__choose_img:not([disabled]):hover .after_promo__picture {
-          transform: scale(1, 1.23); } }
+          transform: scale(1, 1.23); 
+          borer-radius: 20px } }
       @media (min-width: 0px) and (max-width: 989px) {
         .after_promo__choose_img:not([disabled]):hover .after_promo__picture {
           transform: scale(1, 1); } }
