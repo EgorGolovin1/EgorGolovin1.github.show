@@ -90,6 +90,8 @@ body
 @mixin for-no_hover
 	@media ( min-width: $_zero) and (max-width: $for-no_hover)
 		@content
+	@media ( min-width: $_zero) and (max-width: $for-phone-tablet)
+		@content
 
 @mixin margin-center()
 	margin-left: auto
