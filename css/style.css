@@ -509,7 +509,7 @@ h5 {
       .after_promo__choose_img:not([disabled]):hover #img_7 {
         transform: scale(1.2, 1.2); } }
     @media (min-width: 0px) and (max-width: 989px) {
-      .after_promo__choose_img:not([disabled]):hover #img_2, .after_promo__choose_img:not([disabled]):hover #img_3, .after_promo__choose_img:not([disabled]):hover #img_5, .after_promo__choose_img:not([disabled]):hover #img_6, .after_promo__choose_img:not([disabled]):hover #img_7 {
+      .after_promo__choose_img:not([disabled]):hover {
         transform: scale(1, 1); 
         border-radius: 20px} }
 
