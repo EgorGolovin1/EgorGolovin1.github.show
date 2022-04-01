@@ -511,7 +511,8 @@ h5 {
     @media (min-width: 0px) and (max-width: 989px) {
       .after_promo__choose_img:not([disabled]):hover {
         transform: scale(1, 1); 
-        border-radius: 20px} }
+        border-radius: 20px
+        overflow: hidden} }
 
 @media (min-width: 0px) and (max-width: 989px) {
   #img_1, #img_4 {
