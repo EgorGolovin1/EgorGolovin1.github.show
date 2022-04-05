@@ -1,0 +1,100 @@
+@mixin photo-block()
+	@media ( min-width: $row-phone-tablet-min) and (max-width: $for-phone-tablet)
+		width: 70%
+		@include margin-center
+
+	@media (min-width: $for-1025) and (max-width: $for-photo_1500)
+		width:  90%
+		@include margin-center
+
+	@media (min-width: $for-photo_1230) and (max-width: $for-desktop)
+		width:   95%
+		@include margin-center
+
+	@media (min-width: $for-1025) and (max-width: $for-photo_1229) 
+		width:   100% 
+		@include margin-center
+
+	@media ( min-width: $for-photo_720) and (max-width: $for-phone-tablet)
+		width: 50%
+
+@mixin no-photo()
+	@media (min-width: $for-desktop) and (max-width: $for-photo_1500)
+		display: none
+
+@mixin	photo-width()
+	@media (min-width: $for-photo_1500) and (max-width: $for-desktop-down)
+		width: 320px
+
+	@media (min-width: $for-1025) and (max-width: $for-photo_1500)
+		width: 350px
+
+	@media (min-width: $for-photo_1230) and (max-width: $for-desktop)
+		width: 370px
+
+	@media (min-width: $for-1025) and (max-width: $for-photo_1229) 
+		width: 320px
+
+	@media ( min-width: $_zero) and (max-width: $for-photo_720)
+		width: 200px
+		height: 210px
+
+	@media ( min-width: $_zero) and (max-width: $for-photo_650)
+		width: 170px
+		height: 180px
+
+	@media ( min-width: $_zero) and (max-width: $for-photo_590)
+		width: 150px
+		height: 110px
+
+@mixin	photo-width_2()
+	@media (min-width: $for-photo_1500) and (max-width: $for-desktop-down)
+		width: 270px
+
+	@media (min-width: $for-1025) and (max-width: $for-photo_1500)
+		width: 230px
+
+	@media (min-width: $for-1025) and (max-width: $for-photo_1229) 
+		width: 220px
+
+	@media ( min-width: $_zero) and (max-width: $for-photo_870)
+		width: 150px
+		height: 160px
+
+	@media ( min-width: $_zero) and (max-width: $for-photo_720)
+		width: 120px
+		height: 130px
+
+	@media ( min-width: $_zero) and (max-width: $for-photo_590)
+		width: 99.33px
+		height: 110px
+
+@mixin _for-desktop ()
+	@content
+
+@mixin _for-tablet ()
+	@media (min-width: $for-tablet-landscape-down) and (max-width: $for-desktop)
+		@content
+
+@mixin _for-phone ()
+	@media ( min-width: $_zero) and (max-width: $for-phone-tablet)
+		@content
+
+@mixin for-no_hover
+	@media ( min-width: $_zero) and (max-width: $for-no_hover)
+		@content
+
+@mixin margin-center()
+	margin-left: auto
+	margin-right: auto
+
+@mixin no-display ()
+	display: none
+
+@mixin hover ()
+		&:not([disabled]):hover
+			@content
+			
+@mixin active ()
+		&:not([disabled]):active
+			@content
